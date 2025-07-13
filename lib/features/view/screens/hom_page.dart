@@ -1,4 +1,4 @@
-import 'package:basketball_counter_app/features/cubit/counter_cubit.dart';
+import 'package:basketball_counter_app/features/view_model/cubit/counter_cubit.dart';
 import 'package:basketball_counter_app/features/widget/custom_teams.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
