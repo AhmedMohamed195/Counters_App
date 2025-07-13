@@ -1,16 +1,46 @@
-# basketball_counter_app
+# 🏀 basketball_counter_app
 
-A new Flutter project.
+Flutter app for counting basketball points for Team A and Team B, with a responsive UI.  
+Built using **MVVM architecture** and **Bloc (Cubit)** for state management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎬 Preview
 
-A few resources to get you started if this is your first Flutter project:
+- Launches directly to Home Page with full score tracking UI for both teams.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Main UI |
+|---------|
+| ![](assets/preview/Image1.png) |
+
+---
+
+## ✅ Features
+
+- 🧠 MVVM + Bloc (Cubit) architecture.
+- 🧼 Clean and modular widget design (`CustomTeams`).
+- 🖥️ Fully responsive UI with `MediaQuery`.
+- ➕ Add 1, 2, or 3 points to Team A or Team B.
+- 🔄 Reset button to reset both scores.
+
+---
+
+## 🧠 Architecture
+
+- ✅ MVVM structure (separates View, State, Logic)
+- ⚙️ Bloc (Cubit) for state management
+- 📐 MediaQuery used for responsive design across devices
+
+---
+
+## 🚀 Get Started
+
+```bash
+git clone https://github.com/AhmedMohamed195/Counters_App.git
+cd Counters_App
+flutter pub get
+flutter run
